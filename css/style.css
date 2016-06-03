@@ -1,0 +1,92 @@
+body {
+  background: white;
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#container {
+  width: 53em;
+  margin: auto;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+
+section {
+  margin: 0 0 1em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #888;
+  display: block;
+}
+
+p {
+  margin: 0 0 1em;
+  padding: 0;
+  line-height: 1.4em;
+}
+
+h1 {
+  margin: 0 0 1em;
+}
+
+h3 {
+  margin: 0 0 1em;
+}
+
+nav {
+  margin: 1em 0;
+  padding: 1em 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+nav ul, nav li
+{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav li
+{
+  display: inline-block;
+  margin: 0 0.8em;
+}
+nav a
+{
+  text-decoration: none;
+}
+
+.major {
+  width: 66%;
+}
+
+.minor {
+  width: 33%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+@media only screen and (max-width: 800px)
+{
+  #main, img {
+    width: auto;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .left, .right {
+    float: none;
+    width: auto;
+  }
+
+}
