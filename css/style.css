@@ -4,10 +4,25 @@ body {
     font-family: "helvetica", sans-serif;
     font-weight: normal;
     font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 #container {
     width: 53em;
     margin: auto;
+}
+
+#strap {
+    background: #faedea;
+    width: 100%;
+}
+
+#strap .inner {
+    width: 53em;
+    margin: 0 auto 20px;
+    /*background: pink;*/
+    padding: 10px;
+    color: #666;
 }
 .clear {
     display: block;
@@ -108,11 +123,17 @@ nav a {
 }
 @media only screen and (max-width: 800px) {
     #container,
+    #strap .inner,
     nav,
     img {
         width: auto;
         max-width: 100%;
         text-align: left;
+    }
+    #container,
+    #strap .inner {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     img {
       margin-bottom: 1em;
